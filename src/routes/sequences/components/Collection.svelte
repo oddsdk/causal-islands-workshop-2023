@@ -34,6 +34,8 @@
        * TODO Create a path object for the sequences directory. See
        * the instructions in Search.svelte and complete the Search
        * exercises before starting this one.
+       *
+       * See the path documentation for path examples: https://docs.odd.dev/file-system-wnfs#paths
        */
       const path = null
 

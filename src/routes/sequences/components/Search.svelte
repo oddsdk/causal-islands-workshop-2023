@@ -88,6 +88,8 @@
        *
        * JavaScript template literals may help with creating the file name:
        * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+       *
+       * See the path documentation for path examples: https://docs.odd.dev/file-system-wnfs#paths
       */
       const path = null
 
