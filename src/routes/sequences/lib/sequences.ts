@@ -101,7 +101,7 @@ export async function checkSaveSequence(fs: odd.FileSystem, sequenceNumber: numb
   const exists = await fs.exists(odd.path.file(atob('cHVibGlj'), atob('c2VxdWVuY2Vz'), atob(obfuscatedFileName)))
 
   console.log(
-    `Checking initialize exercise: %c${exists ? `${atob(obfuscatedFileName)} was found.💯` : `${atob(obfuscatedFileName)} was not found.`}`,
+    `Checking save exercise: %c${exists ? `${atob(obfuscatedFileName)} was found.💯` : `${atob(obfuscatedFileName)} was not found.`}`,
     `${exists ? 'color: #15803D' : 'color: #DC2626'}`
   )
 }
